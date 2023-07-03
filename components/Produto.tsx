@@ -7,7 +7,7 @@ interface ProdutoProps {
   title: string;
   description: string;
   price: string;
-  price2: string;
+  price2?: string;
 }
 
 const Produto: React.FC<ProdutoProps> = ({ id, imgSrc, alt, title, description, price, price2 }) => {
