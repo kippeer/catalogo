@@ -6,7 +6,7 @@ const IndexPage: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>Minha Loja Virtual</title>
+        <title>Catalogo Óleos Essenciais dōTERRA</title>
         <link rel="stylesheet" href="/style/style.css" />
       </Head>
 
