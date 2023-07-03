@@ -1,0 +1,150 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-image: url("../public/img/bakcground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-image: url("../public/img/toolbar.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #790779;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    margin: 0;
+    font-family: 'Montserrat';
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo dos produtos */
+main {
+    flex: 1;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.produto {
+    border-radius: 15px;
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    background: rgb(249, 208, 250);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.produto h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.produto p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #0e0b0bcc;
+    margin-left: 15px;
+    font-family: 'Montserrant';
+    font-style: italic;
+
+
+}
+
+.produto button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.produto .price {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fa1e0e;
+    display: flex;
+    justify-content: center;
+    
+}
+.produto .price2{
+    text-decoration: line-through;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fa1e0e;
+    display: flex;
+    justify-content: center;
+}
+
+.produto .description {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+/* Estilo do rodapé */
+footer {
+    background: transparent;
+    color: #910d0d;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .produtos {
+        justify-content: center;
+    }
+
+    .produto {
+        width: 100%;
+        max-width: 300px;
+    }
+}
