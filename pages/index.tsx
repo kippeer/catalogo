@@ -19,8 +19,8 @@ const IndexPage: React.FC = () => {
       </main>
 
       <footer>
-        <p>Todos os direitos reservados, Bruno Taveira &copy;2023</p>
-        <p> Desenvolvido por <a href="https://fabiotessaro.vercel.app/" target="_blank">Fabio Tessaro</a> </p>
+        
+        <p> Desenvolvido por Fabio Tessaro<a href="https://fabiotessaro.vercel.app/" target="_blank">Visite o portfolio clicando aqui </a> </p>
       </footer>
 
     </div>
