@@ -20,7 +20,7 @@ const IndexPage: React.FC = () => {
 
       <footer>
         
-        <p> Desenvolvido por Fabio Tessaro<a href="https://fabiotessaro.vercel.app/" target="_blank">Visite o portfolio clicando aqui </a> </p>
+        <p> Desenvolvido por Fabio Tessaro  <a href="https://fabiotessaro.vercel.app/" target="_blank">clique aqui para visitar o portfolio </a> </p>
       </footer>
 
     </div>
